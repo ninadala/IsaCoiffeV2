@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- PROPRIETES DE LA PAGE-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isa Coiffe Dijon</title>
+    <link rel="stylesheet" type="text/css" href="design/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="ressources/pictures/favicon.png">
+</head>
+
+<!-- CORPS DE LA PAGE -->
+<body>
+
+  <!-- EN-TETE -->
+  <header>
+    <h1>Isa Coiffe Dijon</h1>
+    <span class="separator"></span>
+    <h2>Coiffeuse, perruquière diplômée en onco-coiffure</h2>
+
+    <!--LOGO-->
+    <img src="ressources/pictures/logoCropped.png" alt="logo" id="logo">
+  </header>
+
+  <!--MENU DE NAVIGATION-->
+  <nav>
+    <ul>
+      <li><a href="index.html" title="accueil">Accueil</a></li>
+      <li><a href="galery.html" title="galerie photo">Gallerie</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="contener">
+    <!-- PRESENTATION PERSO -->
+    <section>
+        <h3>Bienvenue</h3>
+          <img src="./ressources/pictures/isaPortrait.jpg" alt="Portrait de Isabelle"
+              class="img-fluid rounded-circle float-md-end float-lg-end float-xl-end 
+              ms-lg-4 ms-xl-4 ms-xxl-4 d-none d-sm-none d-md-block" id="portraitIsa">
+
+           <p class="center-text">Je suis Isabelle, coiffeuse / perruquière / visagiste passionnée et au service de
+          ma clientèle depuis 30 ans. <br> <br>
+          Bien souvent l'épanouissement personnel passe par l'image que l'on a de soi. <br></br>
+          Ainsi afin de vous accompagner du mieux possible dans la réappropriation de votre corps, je viens à vous sur
+          votre lieu de vie (domicile, milieu hospitalier, ephad, maison de convalescence...) sur tout le bassin dijonnais
+           et la plaine de Saône. <br>
+        </p>
+    </section>
+
+    <!-- PRESTATIONS-->
+    <section>
+        <h3>Prestations</h3>
+
+        <!--CONTENEUR-->
+        <div id="projets">
+
+          <!--ONCO-COIFFURE-->
+          <div class="projet">
+            <a href="oncoCoiffure.html">
+              <div class="picture">
+                <img src="ressources/pictures/outils.jpg" alt="onco-coiffure">
+              </div>
+              <span>Onco-coiffure</span>
+            </a>
+          </div>
+
+          <!--PERRUQUES ET EXTENSIONS-->
+          <div class="projet">
+            <a href="perruque.html">
+              <div class="picture">
+                <img src="ressources/pictures/perruque1Cropped.png" alt="perruques">
+              </div>
+              <span>Perruquerie</span>
+            </a>
+          </div>
+
+          <!--COIFFURE CLASSIQUE-->
+          <div class="projet">
+            <a href="coiffure.html">
+              <div class="picture">
+                <img src="ressources/pictures/coiffureCropped.png" alt="mon premier projet">
+              </div>
+              <span>Coiffure classique et cérémonies</span>
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <!--HORAIRES ET CONTACTS-->
+    <section>
+      <h3>Horaires et Contact</h3>
+
+      <div id='contact'>
+        <p>Je suis à votre service du <b>lundi au vendredi de 09:00 à 19:30</b> et le <b>samedi de 09:00 à 13:00</b>.</p>
+        <p>Si vous souhaitez me contacter n'hésitez
+          pas à m'envoyer un email à <b><a href="mailto:isabel.questel@gmail.com">isabel.questel@gmail.com</a></b> </br>
+          ou à m'appeler <b><a href="tel:+33672400799">06.72.40.07.99</a></b>.
+        </p>
+        <p id="siret">Mon numéro d'agrément sécurité sociale est le 21269966 4</br>
+          SIRET 41484918200061 - Code NAF 9602A</p>
+      </div>
+    </section>
+  </div>
+
+  <!--FOOTER-->
+  <footer>
+    <p>2021 &copy; Nina SELLAL</p>
+  </footer>
+</body>
+</html>
