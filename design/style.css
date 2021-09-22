@@ -225,15 +225,6 @@ section > p {
     width: 1140px;
 }
 
-#h1{
-    position: relative;
-    margin-bottom: 45px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 44px;
-    text-transform: uppercase;
-    color: #424242;
-  }
-
 #gallery-wrap {
 display: flex;
 flex-direction: row;
@@ -255,34 +246,34 @@ transition: flex 0.8s ease;
 }
   
 .item-1 { 
-background-image: url(ressources/gallerie/1.jpg);
+background-image: url(../ressources/gallerie/1.jpg);
 }
   
 .item-2 { 
-background-image: url(ressources/gallerie/2.jpg);
+background-image: url(../ressources/gallerie/2.jpg);
 }
   
 .item-3 { 
-background-image: url(ressources/gallerie/3.jpg);
+background-image: url(../ressources/gallerie/3.jpg);
 }
   
 .item-4 { 
-background-image: url(ressources/gallerie/4.jpg);
+background-image: url(../ressources/gallerie/4.jpg);
 }
   
 .item-5 { 
-background-image: url(ressources/gallerie/5.jpg);
+background-image: url(../ressources/gallerie/5.jpeg);
 }
 
 .item-6 { 
-background-image: url(ressources/gallerie/6.jpg);
+background-image: url(../ressources/gallerie/6.jpg);
 }
   
 .item-7 { 
-background-image: url(ressources/gallerie/7.jpg);
+background-image: url(../ressources/gallerie/7.jpeg);
 }
   
 .item-8 { 
-background-image: url(ressources/gallerie/8.jpg);
+background-image: url(../ressources/gallerie/8.jpg);
 }
   
