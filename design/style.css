@@ -2,6 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
     background : #f9f9f4;
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 header {
@@ -215,38 +217,72 @@ section > p {
        header h2 {width: 90%;}
 }
 
-/* POLICE
+/*CSS POUR LA GALLERIE*/
 
-IL VAUT MIEUX NE JAMAIS UTILISER LES TAILLES ABSOLUES
-POUR INDIQUER LA TAILLE DE LA POLICE CAR CELA NE PERMET
-PAS A L'UTILISATEUR DE LE MODIFIER.
-PAR DEFAUT LA TAILLE DE LA POLICE EST DE 16PX
-L'UNITE DE TAILLE LA PLUS FACILE A UTILISER C'EST LE EM CAR C'EST 
-RELATIF ET TRES VISUEL. ELLES SONT FAITES EXPRES POUR LES MAL 
-VOYANTS
+#gallery-container{
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1140px;
+}
 
-Pour télecharger des police personnalisées il est possible de se rendre
-sur la page web Dafont.com
+#h1{
+    position: relative;
+    margin-bottom: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #424242;
+  }
 
-Il est également possible de passer via Googlefont
-*/
+#gallery-wrap {
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 70vh;
+}
+  
+.item {
+flex: 1;
+height: 100%;
+background-position: center;
+background-size: cover;
+background-repeat: none;
+transition: flex 0.8s ease;
+} 
+  
+.item:hover{
+    flex: 7;
+}
+  
+.item-1 { 
+background-image: url(ressources/gallerie/1.jpg);
+}
+  
+.item-2 { 
+background-image: url(ressources/gallerie/2.jpg);
+}
+  
+.item-3 { 
+background-image: url(ressources/gallerie/3.jpg);
+}
+  
+.item-4 { 
+background-image: url(ressources/gallerie/4.jpg);
+}
+  
+.item-5 { 
+background-image: url(ressources/gallerie/5.jpg);
+}
 
-
-/*OMBRES : 
-pour generer rapidement des ombres on peut s'aider du
-site CSS3gen.com
-
-pour tester des ombres on peut utiliser le codepen "material design box shadow" sur internet
-*/
-
-/*ASTUCES : 
-pour centrer on peut mettre un "margin : auto"
-*/
-
-/* VARIABLES EN CSS 
---nomDeLaVariable : VALEUR;
-
-UTILIER
-var(--nomDeLaVariable);
-*/
-
+.item-6 { 
+background-image: url(ressources/gallerie/6.jpg);
+}
+  
+.item-7 { 
+background-image: url(ressources/gallerie/7.jpg);
+}
+  
+.item-8 { 
+background-image: url(ressources/gallerie/8.jpg);
+}
+  
